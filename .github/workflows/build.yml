@@ -44,10 +44,10 @@ jobs:
         shell: bash
         run: |
           set -eo pipefail
-          test -f input/Brawl_Stars.zip || { echo "FEHLER: input/Brawl_Stars.zip fehlt"; exit 1; }
-          unzip -o input/Brawl_Stars.zip -d input
-          if [ -f "input/Brawl Stars" ]; then
-            mv "input/Brawl Stars" input/Brawl_Stars
+          test -f input/laser.zip || { echo "FEHLER: input/Brawl_Stars.zip fehlt"; exit 1; }
+          unzip -o input/laser.zip -d input
+          if [ -f "input/laser" ]; then
+            mv "input/laser" input/laser
           fi
           test -f input/Brawl_Stars || { echo "FEHLER: weder 'Brawl Stars' noch 'Brawl_Stars' im ZIP"; ls -la input; exit 1; }
           file input/Brawl_Stars
