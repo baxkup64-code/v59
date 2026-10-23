@@ -1,0 +1,21 @@
+{
+  "_comment": "Hook-Stellen von bundle.js fuer die iOS-Binary 'laser' (Image-Base 0x100000000): alle Interceptor.attach-Ziele.",
+  "hooks": [
+    {"name": "GameButtonCtor",  "rva": "0x09b900"},
+    {"name": "TouchBegan",      "rva": "0x09bde8"},
+    {"name": "TouchEnded",      "rva": "0x09be50"},
+    {"name": "TouchMoved",      "rva": "0x09be64"},
+    {"name": "ButtonPressed",   "rva": "0x09be7c"},
+    {"name": "SetTextGradient", "rva": "0x095dec"},
+    {"name": "RefreshHeader",   "rva": "0x0c8c40"},
+    {"name": "ChatSender",      "rva": "0x0d246c"},
+    {"name": "AddInput",        "rva": "0x1db228"},
+    {"name": "FrameHook",       "rva": "0x223ea8"},
+    {"name": "HomeScreenInit",  "rva": "0x231ba4"},
+    {"name": "CalcScale",       "rva": "0x2343ac"},
+    {"name": "Predict",         "rva": "0x432508"},
+    {"name": "SetXY",           "rva": "0xbbfc7c"},
+    {"name": "SpriteAddChild",  "rva": "0xbd2bec"},
+    {"name": "SetText",         "rva": "0xbef364"}
+  ]
+}
